@@ -88,6 +88,8 @@ public class Ventana extends javax.swing.JFrame {
        dato2=Float.valueOf(longitud.getText());
        miConexion.lat=dato1;
        miConexion.lon=dato2;
+       
+       miConexion.conectar();
     }//GEN-LAST:event_botonMouseClicked
 
     /**
